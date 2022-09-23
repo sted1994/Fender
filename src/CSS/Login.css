@@ -1,0 +1,31 @@
+input{
+  border-radius: 5px;
+  height: 20px;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.login-inputs-container {
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingpage-section {
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-evenly;
+  width: 30vw;
+}

@@ -1,0 +1,8 @@
+.landingpage {
+  align-items: center;
+  background-image: url('../Images/fender_Cover.jpeg');
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+}
