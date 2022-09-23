@@ -1,5 +1,6 @@
 import React from 'react';
 import '../CSS/CreateAccount.css'
+import { Link } from 'react-router-dom';
 
 export const CreateAccount = () => {
   return (
@@ -8,7 +9,7 @@ export const CreateAccount = () => {
       <div className='create-account-background'>
         Join The Comunity
       </div>
-      <button>Create Free Account</button>
+      <Link to='/createAccount'><button>Create Free Account</button></Link>
     </section>
   )
 }
